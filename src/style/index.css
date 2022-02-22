@@ -189,6 +189,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: calc(100% - 158px);
+  color: black;
 }
 
 .main-post .post .post-content h3 {
@@ -208,6 +209,7 @@ body {
   overflow: hidden;
   font-size: 15px;
   width: 100%;
+  color: black;
 }
 
 .main-post .post .post-content span {

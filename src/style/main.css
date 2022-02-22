@@ -535,4 +535,8 @@ body {
       -ms-flex: 1;
           flex: 1;
 }
+
+.total-notifi {
+  position: absolute;
+}
 /*# sourceMappingURL=main.css.map */
