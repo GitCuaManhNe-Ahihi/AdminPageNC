@@ -171,10 +171,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 90%;
+}
+
+.service-account a {
   color: #fff;
 }
 
 h3 {
+  width: 100%;
   text-align: center;
 }
 /*# sourceMappingURL=Login.css.map */

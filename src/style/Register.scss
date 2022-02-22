@@ -6,6 +6,7 @@
     flex-direction: column;
     width: 100%;
     margin:auto;
+    border-radius: 20px;
     ul{
         width: 100%;
         li{
@@ -70,6 +71,4 @@
         }
     }
 }
-h3{
-    text-align: center;
-}
+h3{ width: 100%; text-align: center; }

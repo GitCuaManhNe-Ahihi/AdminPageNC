@@ -78,8 +78,8 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    color: #fff;
+    a{
+        color: #fff;
+    }
 } 
-h3{
-    text-align: center;
-}
+h3{ width: 100%; text-align: center; }
