@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Monoton&family=Neonderthaw&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Monoton&family=Neonderthaw&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  scroll-behavior: smooth;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: .3rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1f0566), to(#9792a5));
+  background: linear-gradient(to bottom, #1f0566, #9792a5);
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: -1;
+}
+
+.form-register {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.form-register ul {
+  width: 100%;
+}
+
+.form-register ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20px;
+}
+
+.form-register ul li:not(:first-child) {
+  margin: 35px 0;
+}
+
+.form-register ul li .group {
+  font-size: 15px;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.form-register ul li .group .group-radio input {
+  width: 5%;
+}
+
+.form-register ul li .group .group-radio input:not(:first-child) {
+  margin-left: 10px;
+}
+
+.form-register ul li .group input {
+  width: 90%;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.form-register ul li .group label {
+  font-size: 17px;
+}
+
+.option-register {
+  width: 90%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.option-register .btn-regist {
+  font-size: 17px;
+  background-color: #137c29;
+  min-width: 150px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.option-register .btn-regist:hover {
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.option-register .btn-cancel {
+  font-size: 17px;
+  background-color: #dd0914;
+  min-width: 150px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+}
+
+.option-register .btn-cancel:hover {
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=Register.css.map */

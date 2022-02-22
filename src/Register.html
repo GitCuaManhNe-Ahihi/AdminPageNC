@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style/Register.css">
+  </head>
+  <body style="background: linear-gradient(to bottom, #66052d, #929ea5)">
+    <div class="container rounded-2xl p-10">
+      <h1 class="text-center">Register</h1>
+      <form action=" " method="post" class="form-register"
+      >
+        <ul class="block ">
+          <li>
+            <div class="group">
+              <label for="name">Name</label>
+              <br />
+              <input type="text" name="name" autocomplete="off" />
+            </div>
+            <div class="group">
+              <label for="name">Gender</label>
+              <br />
+              <div class="group-radio">
+                <input type="radio" id="contactChoice1"  name="gender" value="male"  checked/>
+                <label for="contactChoice1">Male</label>
+                <input type="radio"  id="contactChoice2" name="gender"  value="female"/>
+                <label for="contactChoice2">Female</label>
+                <input type="radio" id="contactChoice3" name="gender" value="other"/>
+                <label for="contactChoice3">Other</label>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="group">
+              <label for="Email">Email</label>
+              <br />
+              <input type="text" id="Email" autocomplete="off" />
+            </div>
+            <div class="group">
+              <label for="Address">Address</label>
+              <br />
+              <input type="text" id="Address" autocomplete="off" />
+            </div>
+          </li>
+          <li>
+            <div class="group">
+              <label for="Pass">Password</label>
+              <br />
+              <input type="password" name="pass" id="Pass" autocomplete="off" />
+            </div>
+            <div class="group">
+              <label for="birth">Birth of born</label>
+              <br />
+              <input type="date" name="birth" id="birth" autocomplete="off" />
+            </div>
+          </li>
+          <li>
+            <div class="group">
+              <label for="CrPass">Correct Password</label>
+              <br />
+              <input type="password" name="crpass" id="CrPass" autocomplete="off"/>
+            </div>
+          </li>
+        </ul>
+        <div class="option-register">
+            <button type="submit" class="btn-regist">Register</button>
+            <a href="./Login.html" class="btn-cancel" >Cancel</a>
+        </div>
+      </form>
+    </div>
+    <script src="./js/animation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+@import "base.scss";
+.Employee-table{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    @include cssScroll();
+    position: relative;
+    
+    li{
+        width: 30%;
+        height: 50px;
+        &:hover{
+          transform: scale(1.05);
+        }
+        position: relative;
+        .Employee-item{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            position: relative;
+            margin-left: 20px;
+            span{
+              font-size: 17px;
+              color: black;
+              margin-left: 50px;
+            }
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 2px solid white;
+                animation: linear boderColorChange 3s infinite;
+                position: absolute;
+                left: -19px;
+            }
+            button{
+                @include Button(green);
+                &:last-child{
+                    @include Button(red);
+                }
+                font-size: 16px;
+                height: 30px !important;
+                min-width: 30px !important;
+            }
+
+        }
+        margin-bottom: 10px;
+    }
+}
+.detail-employ{
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.589);
+    background-color: #a8a1a1;
+    height: 600px;
+    width: 800px;
+    top: 90px;
+    z-index: 20;
+    border-radius: 10px;
+    padding: 30px;
+    position: absolute;
+    display: none;
+    &.active{
+            display: block;
+    }
+    form{
+        height: 100%;
+        width: 100%;
+        display: block;
+        .group-margin{
+            top: 30px;
+            left: 300px;
+            position: absolute;
+        
+        .group{
+            display: flex;
+            width: 400px;
+            &:last-child{
+                margin-top:50px;
+                justify-content: space-between;
+                padding-right: 10px;
+                button{
+                    @include Button(green);
+                    &:last-child{
+                        @include Button(red);
+                    }
+                    font-size: 16px;
+                    height: 30px !important;
+                }
+            }
+            align-items: center;
+
+            margin-bottom: 20px;
+            label
+            {
+                font-size: 17px;
+                color: black;
+                min-width: 100px;
+            }
+            input{
+                flex: 1;
+                height: 30px;
+                padding: 5px 10px;
+                background: transparent;
+                border-bottom: 1px dotted black;
+                font-size: 16px;
+            }
+            select{
+                height: 30px;
+                width: 100px;
+                border-radius: 5px;
+                padding: 0 10px;
+                &,option{
+                    font-size: 17px;
+                         }
+                }
+            }
+            
+        }
+    }
+    .avatar-group{
+        margin-bottom: 50px;
+        input{
+            opacity: 0;
+            position: absolute;
+            z-index: -100;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+             border-radius: 50%;
+            border: 2px solid white;
+
+        }
+    }
+}

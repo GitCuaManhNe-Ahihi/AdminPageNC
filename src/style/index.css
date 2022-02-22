@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Monoton&family=Neonderthaw&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Monoton&family=Neonderthaw&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  scroll-behavior: smooth;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: .3rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1f0566), to(#9792a5));
+  background: linear-gradient(to bottom, #1f0566, #9792a5);
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: -1;
+}
+
+.content {
+  margin-top: 20px;
+  width: calc(100% - 50px);
+  height: calc(100vh - 200px);
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .your-post {
+  width: 65%;
+  background-color: rgba(15, 139, 139, 0.466);
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.content .your-post .heading {
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .your-post .heading form {
+  width: 500px;
+  height: 30px;
+  position: relative;
+}
+
+.content .your-post .heading form .btn-search {
+  font-size: 15px;
+}
+
+.content .your-post .heading form input {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content .your-post h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+#genre {
+  width: 120px;
+  height: 30px;
+  font-size: 17px;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#genre option {
+  font-size: 15px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-post {
+  width: 100%;
+  margin-top: 30px;
+  height: calc(100% - 60px);
+  overflow-y: scroll;
+  background-color: rgba(15, 139, 139, 0.466);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-post::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.main-post::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.main-post::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+.main-post .post {
+  width: 49%;
+  height: 100px;
+  margin-top: 10px;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.main-post .post:hover {
+  opacity: 0.8;
+}
+
+.main-post .post img {
+  height: 100px;
+  width: 150px;
+}
+
+.main-post .post .post-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100% - 158px);
+}
+
+.main-post .post .post-content h3 {
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1 !important;
+  overflow: hidden;
+  font-weight: bold;
+  width: 100%;
+}
+
+.main-post .post .post-content p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 15px;
+  width: 100%;
+}
+
+.main-post .post .post-content span {
+  color: #1100ff;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.employee {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(15, 139, 139, 0.466);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 15px;
+  padding: 15px;
+  margin-left: 50px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.employee h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.employee .list-user {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.employee .list-user::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.employee .list-user::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.employee .list-user::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+.employee .list-user::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.employee .list-user li {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.employee .list-user li:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.employee .list-user li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.employee .list-user li a span {
+  font-size: 17px;
+  color: white;
+}
+
+.employee .list-user li a img {
+  width: 50px;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  -webkit-animation: linear boderColorChange 3s infinite;
+          animation: linear boderColorChange 3s infinite;
+}
+/*# sourceMappingURL=index.css.map */
