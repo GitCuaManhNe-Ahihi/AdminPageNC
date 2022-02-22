@@ -201,6 +201,7 @@ body {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: bold;
+  color: black;
 }
 
 .container-manage .nav-function ul li:hover {
