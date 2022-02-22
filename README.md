@@ -1,11 +1,9 @@
 
 <h1 align="center">Hi 👋, I'm ManhNeAhihi</h1>
-<h3 align="center">A passionate frontend developer from VietNam</h3>
-
 - 🔭 I’m currently working on [NCK-PAGEadmin](https://github.com/GitCuaManhNe-Ahihi/PageAdmin)
 
 - 🌱 I’m currently learning **ReactJs**
-- Demo (https://gitcuamanhne-ahihi.github.io/PageAdmin/src)
+- <a href="https://gitcuamanhne-ahihi.github.io/AdminPageNC/src/">Demo</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
