@@ -3,7 +3,7 @@
 - 🔭 I’m currently working on [NCK-PAGEadmin](https://github.com/GitCuaManhNe-Ahihi/PageAdmin)
 
 - 🌱 I’m currently learning **ReactJs**
-- <a href="https://gitcuamanhne-ahihi.github.io/PageAdmin/src">Demo</a>
+- <a href="https://gitcuamanhne-ahihi.github.io/AdminPageNC/src/">Demo</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
