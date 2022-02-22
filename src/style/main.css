@@ -70,6 +70,19 @@ body {
   font-size: 10rem;
 }
 
+.total-notifi {
+  position: absolute;
+  color: black;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  left: 10px;
+}
+
 .heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,18 +373,6 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2 !important;
   overflow: hidden;
-}
-
-.main-content .header i .total-notifi {
-  color: black;
-  font-size: 15px;
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  text-align: center;
-  line-height: 20px;
-  border-radius: 50%;
-  left: 10px;
 }
 
 .main-content .header .avatar {
